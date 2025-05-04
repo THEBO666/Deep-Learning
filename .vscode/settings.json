@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5522
+    "liveServer.settings.port": 5522,
+    "svg.preview.background": "black"
 }

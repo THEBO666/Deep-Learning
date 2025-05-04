@@ -1,0 +1,273 @@
+<mxfile host="app.diagrams.net" modified="2025-04-19T12:00:00.000Z" agent="5.0 (Windows NT 10.0; Win64; x64)" etag="cpld_structure" version="15.0.0" type="device">
+  <diagram id="cpld_internal_structure" name="CPLD内部结构框图">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- 标题 -->
+        <mxCell id="title" value="CPLD 内部结构框图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="225" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- CPLD主外框 -->
+        <mxCell id="cpld_frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;strokeWidth=2;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="650" height="500" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块标题 -->
+        <mxCell id="function_blocks_title" value="功能块矩阵" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 可编程互连矩阵 -->
+        <mxCell id="pim" value="可编程互连矩阵 (PIM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="610" height="280" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块群组 -->
+        <!-- 功能块 1 -->
+        <mxCell id="fb1" value="功能块 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro1_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro1_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 2 -->
+        <mxCell id="fb2" value="功能块 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro2_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro2_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 3 -->
+        <mxCell id="fb3" value="功能块 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro3_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro3_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 4 -->
+        <mxCell id="fb4" value="功能块 4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro4_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro4_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 5 -->
+        <mxCell id="fb5" value="功能块 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro5_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro5_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 6 -->
+        <mxCell id="fb6" value="功能块 6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="330" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro6_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro6_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 7 -->
+        <mxCell id="fb7" value="功能块 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro7_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro7_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 功能块 8 -->
+        <mxCell id="fb8" value="功能块 8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="120" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- 宏单元 -->
+        <mxCell id="macro8_1" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="macro8_2" value="宏单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- I/O块 -->
+        <mxCell id="io_blocks" value="I/O 块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="610" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- 输入引脚 -->
+        <mxCell id="input_pins" value="输入引脚" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="610" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 互连点阵表示 -->
+        <mxCell id="interconnect_dots1" value=".   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="300" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- EEPROM 配置存储器 -->
+        <mxCell id="eeprom" value="EEPROM 配置存储器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- JTAG 接口 -->
+        <mxCell id="jtag" value="JTAG 编程接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="530" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 连接线 - 输入到PIM -->
+        <mxCell id="line1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="pim" target="input_pins">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 连接线 - PIM到IO -->
+        <mxCell id="line2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="pim" target="io_blocks">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 单个宏单元放大图 -->
+        <mxCell id="macrocell_zoom" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="210" height="150" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="macrocell_title" value="宏单元内部结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="375" y="600" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 与或阵列 -->
+        <mxCell id="and_or_array" value="与或阵列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 寄存器 -->
+        <mxCell id="register" value="寄存器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="430" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 多路复用器 -->
+        <mxCell id="mux" value="多路复用器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="375" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 输出 -->
+        <mxCell id="output" value="输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="375" y="720" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 连接线 - 与或到寄存器 -->
+        <mxCell id="line_and_or" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="and_or_array" target="register">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 连接线 - 与或到多路复用器 -->
+        <mxCell id="line_and_or_mux" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="and_or_array" target="mux">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 连接线 - 寄存器到多路复用器 -->
+        <mxCell id="line_reg_mux" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="register" target="mux">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 连接线 - 多路复用器到输出 -->
+        <mxCell id="line_mux_out" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="mux" target="output">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- 互连线指示 -->
+        <mxCell id="interconnect_line1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="interconnect_line2" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="interconnect_line3" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215.5" y="220" as="sourcePoint" />
+            <mxPoint x="216" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="interconnect_line4" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365.5" y="220" as="sourcePoint" />
+            <mxPoint x="366" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="interconnect_line5" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515.5" y="220" as="sourcePoint" />
+            <mxPoint x="516" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

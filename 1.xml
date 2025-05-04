@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
+  <diagram id="am79r70_flow_diagram" name="AM79R70预检测初始化流程">
+    <mxGraphModel dx="1167" dy="666" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="AM79R70预检测初始化流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="214" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="init_block" value="初始化:&lt;br&gt;设置AM79R70进入预连接检测模式;&lt;br&gt;监听DET信号状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;spacing=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="264" y="70" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="DET输出是否&lt;br&gt;为低电平" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="319" y="190" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="process_yes" value="输入主机接口，&lt;br&gt;启动接收信号或进入下一步呼叫处理流&lt;br&gt;程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;spacing=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="264" y="330" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="process_no" value="输入主机终机，&lt;br&gt;释放相关资源，&lt;br&gt;准备下次呼叫" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=center;spacing=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="564" y="195" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;" parent="1" source="init_block" target="decision" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow_2" value="是" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;fontSize=14;fontStyle=1" parent="1" source="decision" target="process_yes" edge="1">
+          <mxGeometry x="-0.2" y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow_3" value="否" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;fontSize=14;fontStyle=1" parent="1" source="decision" target="process_no" edge="1">
+          <mxGeometry x="-0.1429" y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bottom_line" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="667" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
