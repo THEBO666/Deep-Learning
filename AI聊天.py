@@ -3,11 +3,11 @@ from openai import OpenAI
 client = OpenAI(api_key="sk-melrrwtxmdlxvuezhqcijmsapmmhbejtvemnbxepafaxheal", 
                 base_url="https://api.siliconflow.cn/v1")
 response = client.chat.completions.create(
-    # model='Pro/deepseek-ai/DeepSeek-R1',
-    model="Qwen/Qwen2.5-72B-Instruct",
+    model='deepseek-ai/DeepSeek-R1',
+    # model="Qwen/Qwen2.5-72B-Instruct",
     messages=[
         {'role': 'user', 
-        'content': "使用C++实现DDPG"}
+        'content': "出一套强化学习的试卷"}
     ],
     stream=True
 )
